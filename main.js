@@ -6,6 +6,12 @@ const FULL_HEART = '♥'
 
 
 
+const modal = document.createElement('div');
+modal.className = 'hidden';
+document.body.appendChild(modal);
+
+
+
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
